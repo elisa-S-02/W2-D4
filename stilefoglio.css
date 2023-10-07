@@ -1,0 +1,164 @@
+
+#navbar{
+    display: flex;
+   justify-content: space-around;
+   border-bottom: 2px solid lightgray ;
+   
+}
+#logo{
+height: 10%;
+width: 40%;
+}
+.opzioni{
+display: inline-flex;
+    gap: 5%;
+}
+#ritorna{
+    width: 210px;
+    height: 25px;
+    border-radius: 32px;
+    border: 1px solid black;
+}
+#main{
+    height: 100%;
+    width: 60%;
+justify-content: center;
+border-right: 2px solid lightgray;
+}
+#scrolls{
+  height: 100%;
+  display: inline-flex;
+}
+.main2{
+   padding-inline: 5%;
+
+}
+#twitter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 5%;
+    border-bottom: 2px solid lightgray;
+
+}
+#images{
+    display: inline-flex;
+    height: 32px;
+}
+#lilLogo{
+    height: 32px;
+    border-radius: 32px;
+}
+#lilplus{
+    margin: 0%;
+    font-size: 32px;
+}
+#testo{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+#bottone{
+    display: inline-flex;
+    border-radius: 37px;
+    border: 1px solid lightgray;
+    height: 37px;
+    width: 230px;
+    align-items: center;
+    text-align: center;
+}
+a{
+    color: lightgrey;
+}
+#raccomandazioni{
+    display: flex;
+    flex-direction: column;
+}
+#topics{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+.topic{
+    margin: 1%;
+    border-radius: 20px;
+    width: auto;
+    height: 20px;
+    background-color: rgba(201, 201, 201, 0.753);
+}
+.profili{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+}
+.profilo{
+    display: inline-flex;
+    justify-content: space-between;
+}
+.idPic{
+    font-size: 2em;
+}
+.follow{
+    height: 20px;
+    padding: 1%;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+}
+.cosette{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    font: 1em rgb(201, 199, 199);
+}
+#schede{
+    width:80%;
+    display: inline-flex;
+    gap: 5%;
+    margin-left: 15%;
+    justify-content: flex-start;
+    border-bottom: 2px solid lightgray ;
+
+}
+#posts{
+    padding-left: 100px;
+    padding-right: 50px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    
+}
+.post{
+    width: 80%;
+    padding-bottom: 5%;
+    display: inline-flex;
+    gap: 5%;
+    justify-content: space-between;
+}
+.articolo{
+flex-direction: column;
+width: 80%;
+}
+.sottotitolo1{
+   display: inline-flex;
+    gap: 5%;
+}
+.sottotitolo{
+    justify-content: space-between;
+    display: inline-flex;
+    width: 100%;
+    
+ }
+.image{
+    display: inline-flex;
+    height: 100%;
+width: 20%;
+}
+.icon{
+    height: 1em;
+}
+h3{
+    margin: 0%;
+}
+h4{
+    margin: 0%;
+}
